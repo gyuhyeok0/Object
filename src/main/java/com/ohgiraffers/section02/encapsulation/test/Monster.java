@@ -29,6 +29,7 @@ public class Monster {
         if (index >= 0 && index < this.powers.length) {
             this.powers[index] += power;
             int num;
+            int num3;
         }
     }
 
