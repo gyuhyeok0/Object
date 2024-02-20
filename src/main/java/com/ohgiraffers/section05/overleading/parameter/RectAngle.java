@@ -9,6 +9,7 @@ public class RectAngle {
         입력해서 인스턴스를 생성하도록 해보자
      */
 
+
     public RectAngle(double width, double height) {
         this.width = width;
         this.height = height;

@@ -7,9 +7,13 @@ public class StaticFieldTest {
     private static int staticCount;
     // 기본생성자
     public StaticFieldTest(){}
-    public int getNonStaticCount(){return  this.nonStaticCount;}
 
 
+    public int getNonStaticCount(){
+
+        return  this.nonStaticCount;
+
+    }
     public  int getStaticCount(){
 
         /*필기.

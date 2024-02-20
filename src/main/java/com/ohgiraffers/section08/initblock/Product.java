@@ -44,5 +44,6 @@ public class Product {
         this.price = price;
         Product.brand= brand;
         System.out.println("매개변수가 있는 생성사 호출");
+        
     }
 }
