@@ -65,6 +65,7 @@ public class Application {
                 - 행위 - 시동을 걸어라, 앞으로가라, 멈춰라, 시동을 꺼라
          */
 
+
         CarRacer racer = new CarRacer();
 
         Scanner sc = new Scanner(System.in);
