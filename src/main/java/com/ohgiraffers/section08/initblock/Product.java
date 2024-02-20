@@ -29,6 +29,8 @@ public class Product {
 //        price = 2000;
 //        brand = "사과";
 //    }
+
+
 // 목차.3 정적 초기화 블럭
     static {
 //        name = "아이뽕";
@@ -43,6 +45,7 @@ public class Product {
         this.name = name;
         this.price = price;
         Product.brand= brand;
+        System.out.println("매개변수가 있는 생성사 호출");
         System.out.println("매개변수가 있는 생성사 호출");
         
     }
