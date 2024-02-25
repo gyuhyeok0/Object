@@ -22,6 +22,8 @@ public class Applicaiton01 {
         System.out.println(user3.getInfo());
 
         System.out.println("+++++");
+        System.out.println("+++==+");
+
 
         user1.app1("user01", "pass02", "홍길동");
 
