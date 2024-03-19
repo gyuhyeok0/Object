@@ -16,13 +16,14 @@ public class Applicaiton01 {
         //기본 생성자 매개변수
         User user2 = new User("user01", "pass01", "홍길동");
         System.out.println(user2.getInfo());
+        System.out.println(user2.getInfo());
 
         /* 목차. 3. 모든 필드를 초기화 하는 생성자*/
         User user3 = new User("user01", "pass01", "홍길동", new java.util.Date());
         System.out.println(user3.getInfo());
 
         System.out.println("+++++");
-        System.out.println("+++==+");
+        
 
 
         user1.app1("user01", "pass02", "홍길동");
